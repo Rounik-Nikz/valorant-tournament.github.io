@@ -1,3 +1,3 @@
 # Valorant-Tournament-Website
-Unresponsive website using HTML and CSS. <br> Web-Dev Practice #1
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+Unresponsive website using HTML and CSS. <br> Web-Dev Practice #1 <br>
+[Hosted Here: [Click Me To View!!!] (https://github.com/Rounik-Nikz/valorant-tournament.github.io/edit/main/README.md)
