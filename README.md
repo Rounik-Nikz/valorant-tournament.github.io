@@ -1,2 +1,2 @@
 # Valorant-Tournament-Website
-Unresponsive website using HTML and CSS. Web-Dev Practice #1
+Unresponsive website using HTML and CSS. <br> Web-Dev Practice #1
