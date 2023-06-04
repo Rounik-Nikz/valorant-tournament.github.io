@@ -1,0 +1,217 @@
+body {
+  font-family: Ubuntu;
+  margin: 0px;
+  padding: 0px;
+  background-image: url(/img/bg_pic.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+/* LEFT DIVISION CSS*/
+
+.left {
+  position: absolute;
+  display: inline-block;
+  left: 34px;
+  top: 12px;
+  color: white;
+  font-family: Ubuntu;
+
+}
+
+.left:hover {
+  cursor: pointer;
+  text-shadow: 5px 5px 5px red;
+}
+
+.left img {
+  width: 100px;
+}
+
+.left div {
+  text-align: center;
+  line-height: 15px;
+
+}
+
+.left div a {
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+}
+
+.left div a:hover {
+
+  color: rgb(252, 107, 107);
+}
+
+
+
+/* CENTER DIVISION CSS*/
+
+.center {
+  display: block;
+  margin: 12px auto;
+  width: 45%;
+  color: white;
+}
+
+.navbar {
+  display: inline-block;
+}
+
+.navbar li {
+  font-size: 20px;
+  display: inline-block;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 35px;
+
+}
+
+.navbar li a:hover {
+  text-decoration: underline;
+  text-shadow: 5px 5px 5px red;
+  color: rgb(252, 107, 107);
+}
+
+.navbar li a:focus {
+  text-decoration: underline;
+  text-shadow: 5px 5px 5px red;
+  color: rgb(252, 107, 107);
+}
+
+
+
+/* RIGHT DIVISION CSS*/
+
+.right {
+  position: absolute;
+  margin: 12px auto;
+  right: 34px;
+  top: 12px;
+  display: inline-block;
+  color: white;
+}
+
+.right a {
+  text-decoration: none;
+}
+
+.btn {
+  font-family: Ubuntu;
+  margin: 0px 10px;
+  font-size: 20px;
+  border: 1px solid rgb(241, 241, 241);
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 10px;
+
+}
+
+.btn:hover {
+  box-shadow: 5px 5px 10px red;
+  text-shadow: 5px 5px 5px red;
+  color: rgb(252, 107, 107);
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+
+/* Form CSS */
+
+.container {
+  border-radius: 10px;
+  margin: 50px 80px;
+  width: 40%;
+  padding: 10px 45px 45px 45px;
+  color: white;
+
+}
+
+
+.container h2 {
+  text-align: center;
+}
+
+.container form {
+  padding: 20px;
+  text-align: center;
+
+
+}
+
+.container input {
+  font-family: Ubuntu;
+  font-size: large;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid rgba(255, 255, 255, 0.218);
+  color: rgb(253, 253, 253);
+  text-align: center;
+  padding: 5px;
+  height: 25px;
+  width: 450px;
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+}
+
+
+
+.container input:focus {
+  border-style: none;
+  width: 475px;
+  box-shadow: 5px 5px 10px red;
+
+}
+
+
+
+.container input:hover {
+  box-shadow: 5px 5px 10px red;
+}
+
+
+
+.container #button {
+  padding: 5px;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 20px;
+  margin-right: 20px;
+  background-color: black;
+  margin-left: 20px;
+
+}
+
+.container #button:focus {
+  padding: 5px;
+  width: fit-content;
+  height: fit-content;
+  border: solid white;
+  background-color: rgba(0, 0, 0, 0);
+  text-shadow: 5px 5px 10px red;
+
+}
+
+.container #button:hover {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 5px;
+  width: fit-content;
+  height: fit-content;
+  border: solid white;
+  cursor: pointer;
+  width: auto;
+  text-shadow: 5px 5px 10px red;
+}
+
+
+::placeholder {
+  color: rgba(252, 252, 252, 0.859);
+  opacity: 1;
+}
