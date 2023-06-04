@@ -2,7 +2,7 @@ body {
   font-family: Ubuntu;
   margin: 0px;
   padding: 0px;
-  background-image: url(/img/bg_pic.png);
+  background-image: url(img/bg_pic.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
